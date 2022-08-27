@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+  }
+
+body {
+  background-image: url("sfondo.jpg");
+  background-size: 100%
+}
+
+          /* IMPOSTAZIONI CONTENITORE */
+.contenitore {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  height: 800px
+}
+
+          /* IMPOSTAZIONI HEADER */
+header {
+  text-align: center;
+
+}
+
+ header>h1{
+  margin-bottom: 4px;
+  margin-top: 4px;
+  color: rgb(0, 230, 0)
+}
+
+.logo{
+  width: 20%;
+  margin-top: 90px;
+
+  }
+
+.nav {
+  text-align: center;
+  background:  rgb(0, 230, 0);
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px
+}
+        /* IMPOSTAZIONI MAIN */
+main{
+  margin-left: 10%;
+  color: white
+}
+
+.paragrafo {
+  margin-top: 20px;
+
+}
+#mono{
+  font-size: 30px
+}
+
+.graffa{
+  background: rgb(255,140,0);
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px
+}
+.graffa2{
+  background: rgb(255,215,0);
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px
+}
+.graffa3{
+  background: rgb(173,255,47);
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px
+}
